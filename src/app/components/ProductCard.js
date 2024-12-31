@@ -3,7 +3,6 @@ import Link from 'next/link';
 export default function ProductCard({ product }) {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 ease-in-out transform hover:scale-105">
-      {/* Usa solo il componente Link e non l'elemento <a> */}
       <Link href={`/products/${product.id}`} passHref>
         <img
           className="rounded-t-lg w-full h-40 object-contain p-2"
