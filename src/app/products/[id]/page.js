@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import Link from 'next/link'; // Importa Link da Next.js
+import Link from 'next/link';
 
 export default function ProductDetails() {
   const { id } = useParams();
@@ -49,9 +49,9 @@ export default function ProductDetails() {
           <p className="text-2xl font-semibold mt-4 text-gray-900">${product.price}</p>
           <p className="text-sm text-gray-500 mt-2">Category: {product.category}</p>
           <div className="mt-6">
-            {/* Usa Link per navigare correttamente tra le pagine */}
+
             <Link
-              href="/" // URL della pagina dei prodotti
+              href="/" 
               className="px-6 py-2 text-white bg-blue-600 rounded-full hover:bg-blue-700 transition duration-300"
             >
               Back to Products
