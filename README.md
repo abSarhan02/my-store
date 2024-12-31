@@ -1,3 +1,5 @@
+## My Store
+
 My Store si a responsive products agllery built with Next.js, Tailwind CSS, and the Fake Store API. This project showcases a simple e-commerce gallery where users can browse and view product details.
 
 ## Features
